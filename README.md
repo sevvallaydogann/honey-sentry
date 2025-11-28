@@ -53,8 +53,6 @@ Modify the content and save, or delete the file entirely.
 
 Alert Output:
 
-Plaintext
-
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 [!!!] CYBER ATTACK DETECTED [!!!]
 [*] Event Type:  MODIFICATION
@@ -62,8 +60,8 @@ Plaintext
 [*] Timestamp:   Fri Nov 28 16:20:00 2025
 [*] Action:      Log sent to Security Operations Center (SOC).
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 Project Structure
-Plaintext
 
 Honey-Sentry/
 ├── main.py                 # Core detection logic and event handling
