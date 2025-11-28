@@ -38,9 +38,11 @@ python main.py
 
 ## Example Output
 
+```bash
 [+] Honeytoken file created: server_root_credentials.txt
 [+] Monitoring started. Directory: /home/user/projects/Honey-Sentry
 [+] Honey-Sentry is active and waiting... (Press CTRL+C to stop)
+```
 
 ## Simulation
 
