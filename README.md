@@ -35,8 +35,6 @@ Run the script using Python. The tool will create the trap file and enter monito
 ```bash
 python main.py
 
-Example Output
-
 [+] Honeytoken file created: server_root_credentials.txt
 [+] Monitoring started. Directory: /home/user/projects/Honey-Sentry
 [+] Honey-Sentry is active and waiting... (Press CTRL+C to stop)
@@ -52,7 +50,7 @@ Open the newly created server_root_credentials.txt.
 
 Modify the content and save, or delete the file entirely.
 
-Alert Output:
+Alert Output
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 [!!!] CYBER ATTACK DETECTED [!!!]
