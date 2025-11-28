@@ -1,0 +1,19 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Mac OS junk
+.DS_Store
+
+# Logs
+*.log
+
+# Virtual Environment
+venv/
+env/
+
+# Project Specific
+server_root_credentials.txt
+
