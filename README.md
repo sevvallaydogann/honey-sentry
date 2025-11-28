@@ -34,36 +34,3 @@ Run the script using Python. The tool will create the trap file and enter monito
 
 ```bash
 python main.py
-
-[+] Honeytoken file created: server_root_credentials.txt
-[+] Monitoring started. Directory: /home/user/projects/Honey-Sentry
-[+] Honey-Sentry is active and waiting... (Press CTRL+C to stop)
-
-Simulation
-To test the functionality, simulate an attacker's behavior:
-
-Start the tool.
-
-Navigate to the project directory.
-
-Open the newly created server_root_credentials.txt.
-
-Modify the content and save, or delete the file entirely.
-
-Alert Output
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-[!!!] CYBER ATTACK DETECTED [!!!]
-[*] Event Type:  MODIFICATION
-[*] Target File: .\server_root_credentials.txt
-[*] Timestamp:   Fri Nov 28 16:20:00 2025
-[*] Action:      Log sent to Security Operations Center (SOC).
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-Project Structure
-
-Honey-Sentry/
-├── main.py                 # Core detection logic and event handling
-├── requirements.txt        # Python dependencies
-├── README.md               # Project documentation
-└── .gitignore              # Ignored files
