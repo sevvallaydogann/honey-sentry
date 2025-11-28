@@ -34,12 +34,13 @@ Run the script using Python. The tool will create the trap file and enter monito
 
 ```bash
 python main.py
+
 Example Output
-Plaintext
 
 [+] Honeytoken file created: server_root_credentials.txt
 [+] Monitoring started. Directory: /home/user/projects/Honey-Sentry
 [+] Honey-Sentry is active and waiting... (Press CTRL+C to stop)
+
 Simulation
 To test the functionality, simulate an attacker's behavior:
 
