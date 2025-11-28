@@ -19,7 +19,7 @@ Unlike traditional Intrusion Detection Systems (IDS) that rely on signatures, Ho
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/sevvallaydogann/Honey-Sentry.git]
+    git clone https://github.com/sevvallaydogann/honey-sentry
     cd Honey-Sentry
     ```
 
